@@ -5,8 +5,8 @@ using UnityEngine;
 public class AlienMaster : MonoBehaviour
 {
     public GameObject bulletPrefab;
-    private Vector3 hMoveDistance = new Vector3 (0, 0, 0);
-    private Vector3 vMoveDistance = new Vector3 (0, 0, 0);
+    private Vector3 hMoveDistance = new Vector3 (0.05f, 0, 0);
+    private Vector3 vMoveDistance = new Vector3 (0, 0.15f, 0);
 
     private const float MAX_LEFT = -2;
     private const float MAX_RIGHT = 2;
@@ -21,7 +21,7 @@ public class AlienMaster : MonoBehaviour
 
     void Start()
     {
-        foreach (GameObject go in GameObject.FindGameObjectsWithTag("Alienn"))
+        foreach (GameObject go in GameObject.FindGameObjectsWithTag("Alien"))
         {
             allAliens.Add(go);
         }
@@ -71,7 +71,7 @@ public class AlienMaster : MonoBehaviour
     {
         float f = allAliens.Count * moveTime;
 
-        if (f<MAX_MOVE_SPEED)
+        if (f < MAX_MOVE_SPEED)
         {
             return MAX_MOVE_SPEED;
         }
