@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     bool isShooting = false;
     private float coolDown = 0.5f;
 
+    [SerializeField] private ObjectPool objectPool = null;
+
     private void Awake()
     {
         cam = Camera.main;
@@ -47,7 +49,9 @@ public class Player : MonoBehaviour
     private IEnumerator Shoot()
     {
         isShooting = true;
-        Instantiate(bulletPrefab,transform.position, Quaternion.identity);
+        //Instantiate(bulletPrefab,transform.position, Quaternion.identity);
+        GameObject obj = objectPool.GetPooledObject();
+        obj.transform.position = gameObject.transform.position;
         yield return new WaitForSeconds(coolDown);
         isShooting = false;
     }
