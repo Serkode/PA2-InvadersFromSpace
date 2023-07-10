@@ -5,6 +5,7 @@ using UnityEngine;
 public class AlienMaster : MonoBehaviour
 {
     [SerializeField] private ObjectPool objectPool = null;
+    [SerializeField] private ObjectPool motherShipObjectPool = null;
     public GameObject bulletPrefab;
     [SerializeField] Player _playerSC;
     private float width;
@@ -18,11 +19,17 @@ public class AlienMaster : MonoBehaviour
     public static List <GameObject> allAliens = new List<GameObject>();
 
     private bool movingRight;
-    private float moveTimer = 0.04f;
-    private float moveTime = 0.02f;
+    private float moveTimer = 0.01f;
+    private float moveTime = 0.005f;
 
     private float shootTimer = 3f;
     private const float shootTime = 3f;
+
+    public GameObject motherShipPrefab;
+    private Vector3 motherShipSpawnPos = new Vector3(0, 0, 0);
+    private float motherShipTimer = 60f;
+    private const float MOTHERSHIP_MIN = 15f;
+    private const float MOTHERSHIP_MAX = 60f;
 
 
     void Start()
@@ -46,8 +53,14 @@ public class AlienMaster : MonoBehaviour
         {
             Shoot();
         }
+
+        if (motherShipTimer <= 0)
+        {
+            SpawnMotherShip();
+        }
         moveTimer -= Time.deltaTime;
         shootTimer -= Time.deltaTime;
+        motherShipTimer -= Time.deltaTime;
     }
 
     private void MoveEnemies()
@@ -63,7 +76,7 @@ public class AlienMaster : MonoBehaviour
             {
                 allAliens[i].transform.position -= hMoveDistance;
             }
-            if (allAliens[i].transform.position.x > width || allAliens[i].transform.position.x < width)
+            if (allAliens[i].transform.position.x > width || allAliens[i].transform.position.x < -width)
             {
                 hitMax++;
             }
@@ -88,6 +101,13 @@ public class AlienMaster : MonoBehaviour
         obj.transform.position = pos;
 
         shootTimer = shootTime;
+    }
+
+    private void SpawnMotherShip()
+    {
+        GameObject obj = motherShipObjectPool.GetPooledObject();
+        obj.transform.position = motherShipSpawnPos;
+        motherShipTimer = Random.Range(MOTHERSHIP_MIN, MOTHERSHIP_MAX);
     }
 
     private float GetMovedSpeed()

@@ -469,7 +469,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.22352941, g: 0.22352941, b: 0.22352941, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1094,8 +1094,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPool: {fileID: 1131982572}
+  motherShipObjectPool: {fileID: 1711838754}
   bulletPrefab: {fileID: 3412129813078451424, guid: 689394d6138957f48bbf17085abb38ed, type: 3}
   _playerSC: {fileID: 2075876217}
+  motherShipPrefab: {fileID: 6079174699000651276, guid: 854f31351015b444ebb4f0dafa7352b4, type: 3}
 --- !u!114 &1131982572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,12 +2068,12 @@ GameObject:
   - component: {fileID: 1711838755}
   - component: {fileID: 1711838754}
   m_Layer: 0
-  m_Name: ObjectPool
+  m_Name: MotherShipPool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1711838754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,8 +2086,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0d25dae45d7f8f4eafc21a2673266e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectPrefab: {fileID: 8122865219779794387, guid: 200b6f26704570443a8e5655491cceb0, type: 3}
-  poolSize: 5
+  objectPrefab: {fileID: 6079174699000651276, guid: 854f31351015b444ebb4f0dafa7352b4, type: 3}
+  poolSize: 1
 --- !u!4 &1711838755
 Transform:
   m_ObjectHideFlags: 0
