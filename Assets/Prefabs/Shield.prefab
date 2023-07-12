@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1318038175094491042}
   - component: {fileID: 1318038175094491043}
   - component: {fileID: 1318038175094491041}
-  - component: {fileID: 1318038175094491040}
+  - component: {fileID: 1654233516644595355}
   m_Layer: 0
   m_Name: Shield_Right_00
   m_TagString: Untagged
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1846532, y: -0.14334917}
+  m_Offset: {x: -0.106806666, y: -0.14334917}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,34 +110,25 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6306936, y: 0.71330166}
+  m_Size: {x: 0.78638667, y: 0.71330166}
   m_EdgeRadius: 0
---- !u!61 &1318038175094491040
-BoxCollider2D:
+--- !u!114 &1654233516644595355
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318038175094491069}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.21380898, y: -0.2575426}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.19335705, y: 0.48491478}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5f851541c98474a91c00b045c9963f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 799643599, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
+  - {fileID: -414352212, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
+  - {fileID: -656745566, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
+  - {fileID: -1884096213, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
 --- !u!1 &1318038176211217875
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +173,7 @@ GameObject:
   - component: {fileID: 1318038176353920663}
   - component: {fileID: 1318038176353920660}
   - component: {fileID: 1318038176353920666}
-  - component: {fileID: 1318038176353920661}
+  - component: {fileID: 4875680130353628652}
   m_Layer: 0
   m_Name: Shield_Left_00
   m_TagString: Untagged
@@ -270,7 +261,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.18465325, y: -0.14091957}
+  m_Offset: {x: 0.10429552, y: -0.14091957}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -281,31 +272,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6306935, y: 0.71816087}
+  m_Size: {x: 0.79140896, y: 0.71816087}
   m_EdgeRadius: 0
---- !u!61 &1318038176353920661
-BoxCollider2D:
+--- !u!114 &4875680130353628652
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318038176353920662}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.21866825, y: -0.2332462}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.18363851, y: 0.5335076}
-  m_EdgeRadius: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5f851541c98474a91c00b045c9963f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 800612345, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
+  - {fileID: -1662749014, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
+  - {fileID: 1337133605, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}
+  - {fileID: 1622995599, guid: 1222ae1263fc1dd4391be0316928f7d0, type: 3}

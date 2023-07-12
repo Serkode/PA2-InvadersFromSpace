@@ -23,5 +23,10 @@ public class FriendlyBullet : MonoBehaviour
             collision.gameObject.GetComponent<Alien>().Kill();
             gameObject.SetActive(false);
         }
+        if (collision.gameObject.CompareTag("EnemyBullet"))
+        {
+            collision.gameObject.SetActive(false);
+            gameObject.SetActive(false);
+        }
     }
 }
