@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public ShipStats shipStats;
     private Vector2 offScreenPos = new Vector2(0, -20);
     private Vector2 startPos = new Vector2(0, -6);
+    private float dirx;
 
     private void Awake()
     {
@@ -31,6 +32,8 @@ public class Player : MonoBehaviour
         shipStats.currentHealth = shipStats.maxHealth;
         shipStats.currentLifes = shipStats.maxLifes;
         transform.position = startPos;
+        UIManager.UpdateHealthBar(shipStats.currentHealth);
+        UIManager.UpdateLives(shipStats.currentLifes);
     }
 
 
@@ -51,8 +54,26 @@ public class Player : MonoBehaviour
         }
 
 #endif
+
+        dirx = Input.acceleration.x;
+        //Debug.Log(dirx);
+        if (dirx <= -0.1f && transform.position.x > -width)
+        {
+            transform.Translate(Vector2.left * Time.deltaTime * shipStats.shipSpeed);
+        }
+        if (dirx >= 0.1f && transform.position.x < width)
+        {
+            transform.Translate(Vector2.right * Time.deltaTime * shipStats.shipSpeed);
+        }
     }
 
+    public void ShootButton()
+    {
+        if (!isShooting)
+        {
+            StartCoroutine(Shoot());
+        }
+    }
 
     private IEnumerator Shoot()
     {
@@ -84,15 +105,18 @@ public class Player : MonoBehaviour
         shipStats.currentHealth = shipStats.maxHealth;
 
         transform.position = startPos;
+        UIManager.UpdateHealthBar(shipStats.currentHealth);
     }
 
     private void TakeDamage()
     {
         shipStats.currentHealth--;
+        UIManager.UpdateHealthBar(shipStats.currentHealth);
 
         if (shipStats.currentHealth <= 0)
         {
             shipStats.currentLifes--;
+            UIManager.UpdateLives(shipStats.currentLifes);
 
             if (shipStats.currentLifes <= 0)
             {
