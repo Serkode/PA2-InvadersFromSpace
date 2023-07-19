@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 696008091557233124}
   - component: {fileID: 696008091557233123}
   - component: {fileID: 462915924}
+  - component: {fileID: 2075876227}
+  - component: {fileID: 2075876222}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -100,7 +102,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03246104, y: -0.058738947}
+  m_Offset: {x: -0.008493312, y: -0.058738947}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5405512, y: 0.49999952}
@@ -111,7 +113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18692829, y: 0.6290169}
+  m_Size: {x: 0.18389465, y: 0.6290169}
   m_EdgeRadius: 0
 --- !u!61 &696008091557233123
 BoxCollider2D:
@@ -126,7 +128,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.032461084, y: -0.18703747}
+  m_Offset: {x: -0.008493245, y: -0.18703747}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5405512, y: 0.49999952}
@@ -137,7 +139,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5579116, y: 0.25494194}
+  m_Size: {x: 0.5548779, y: 0.25494194}
   m_EdgeRadius: 0
 --- !u!114 &462915924
 MonoBehaviour:
@@ -153,3 +155,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8122865219779794387, guid: 200b6f26704570443a8e5655491cceb0, type: 3}
   width: 0
+  objectPool: {fileID: 2075876222}
+  shipStats: {fileID: 2075876227}
+--- !u!114 &2075876227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696008091557233127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c99f2df8187bf8c468bd8eba16c6396d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  currentHealth: 0
+  maxLifes: 3
+  currentLifes: 3
+  shipSpeed: 3
+  fireRate: 0.5
+--- !u!114 &2075876222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696008091557233127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d25dae45d7f8f4eafc21a2673266e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 8122865219779794387, guid: 200b6f26704570443a8e5655491cceb0, type: 3}
+  poolSize: 5
