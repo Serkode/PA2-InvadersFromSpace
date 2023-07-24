@@ -1381,7 +1381,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75318650b5c91f64d94ea7dddb6dc21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allAlienSets: []
+  allAlienSets:
+  - {fileID: 1128210253059360074, guid: 62716d124e2fb1e4d9a13bc992bbc988, type: 3}
+  - {fileID: 204343965343518055, guid: 5b994eccaf1b44c4694c79ec5115da9f, type: 3}
+  - {fileID: 6717055041295875777, guid: 45bf56d4a071e3941922b3a66b344f66, type: 3}
+  - {fileID: 1405052816045630091, guid: ae9059890a58370449c7157012b09261, type: 3}
 --- !u!4 &1223568309
 Transform:
   m_ObjectHideFlags: 0

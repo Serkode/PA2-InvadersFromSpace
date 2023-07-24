@@ -148,6 +148,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 300
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &1964773606030126862
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +299,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 300
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &1964773606579563258
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +450,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 300
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &1964773606719772358
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,6 +601,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 300
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &1964773606765668901
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +752,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 300
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &2527581069798580025
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +903,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 400
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &2527581069927551621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1054,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 400
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &2527581069939041547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1205,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 400
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &2527581069998009755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1356,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 400
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &2527581070152437405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,6 +1507,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 400
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &4168805937064164343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1628,6 +1658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 100
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &4168805937800295476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,6 +1809,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 100
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &4168805938083813186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,6 +1960,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 100
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &4168805938182654981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,6 +2111,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 100
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &4168805938478815021
 GameObject:
   m_ObjectHideFlags: 0
@@ -2220,6 +2262,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 100
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &6717055041295875777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,6 +2501,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 500
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &6746205705632103734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,6 +2652,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 500
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &6746205706350032623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,6 +2803,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 500
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &6746205706480717903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2900,6 +2954,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 500
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &6746205706761933170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3048,6 +3105,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 500
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &7143038604989322913
 GameObject:
   m_ObjectHideFlags: 0
@@ -3196,6 +3256,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 200
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &7143038606036207697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,6 +3407,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 200
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &7143038606124690445
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +3558,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 200
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &7143038606149149944
 GameObject:
   m_ObjectHideFlags: 0
@@ -3640,6 +3709,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 200
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
 --- !u!1 &7143038606186597859
 GameObject:
   m_ObjectHideFlags: 0
@@ -3788,3 +3860,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 200
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
+  coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
+  lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
+  healthPrefab: {fileID: 1021882001420920112, guid: 1dc9074c54bd78344b44918ac89351e5, type: 3}
