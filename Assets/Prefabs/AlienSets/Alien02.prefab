@@ -615,6 +615,7 @@ GameObject:
   - component: {fileID: 204343965343518052}
   - component: {fileID: 204343965343518053}
   - component: {fileID: 204343965343518050}
+  - component: {fileID: 843859129551370836}
   m_Layer: 0
   m_Name: Alien02
   m_TagString: Untagged
@@ -676,7 +677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPool: {fileID: 204343965343518050}
-  motherShipObjectPool: {fileID: 3004776485187826555, guid: 771dbb4d7a99b634885771a620ed76eb, type: 3}
+  motherShipObjectPool: {fileID: 843859129551370836}
   bulletPrefab: {fileID: 3412129813078451424, guid: 689394d6138957f48bbf17085abb38ed, type: 3}
   motherShipPrefab: {fileID: 6079174699000651276, guid: 854f31351015b444ebb4f0dafa7352b4, type: 3}
 --- !u!114 &204343965343518050
@@ -693,6 +694,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 3412129813078451424, guid: 689394d6138957f48bbf17085abb38ed, type: 3}
   poolSize: 2
+--- !u!114 &843859129551370836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204343965343518055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d25dae45d7f8f4eafc21a2673266e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 6079174699000651276, guid: 854f31351015b444ebb4f0dafa7352b4, type: 3}
+  poolSize: 1
 --- !u!1 &4378369634015181815
 GameObject:
   m_ObjectHideFlags: 0

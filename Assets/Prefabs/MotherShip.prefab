@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6d1fd6f5e364f42b2e0710afb8d26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 1000
+  scoreValue: 500
 --- !u!114 &-7790838881479288422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45688b0c0946d3c4abd55f1fa4ba2fb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 0
+  scoreValue: 500
   explosion: {fileID: 1017848304676482511, guid: 55d6d9e53f65d39459af4262ba647166, type: 3}
   coinPrefab: {fileID: 2742252435746077314, guid: 632269649732b714ba04e14f8c4a2b61, type: 3}
   lifePrefab: {fileID: 2731830040720614669, guid: 19ca6f80efb7f9945be4e3b31b3bf3ef, type: 3}
